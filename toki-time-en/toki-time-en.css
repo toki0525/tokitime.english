@@ -1,0 +1,434 @@
+*{
+    background-color: #f9f6ff;
+    color: #3f4661;
+    font-family: "M PLUS Rounded 1c";
+    font-family: "Varela Round";
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    font-family: "M PLUS Rounded 1c";
+    margin: 5px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+h2{
+    font-family: "Bad Script";
+    font-size: 40px;
+    background-color: transparent;
+    text-align: center;
+}
+
+h3{
+    font-family: "M PLUS Rounded 1c";
+    font-size: 25px;
+    background-color: transparent;
+}
+
+a{
+    font-family: "M PLUS Rounded 1c";
+    margin: 5px;
+    font-size: 20px; 
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+}
+
+header{
+    margin-top: 10px;
+}
+
+.language-botton{
+    margin-left: 1200px;
+}
+
+.language{
+    color: #f9f6ff;
+    text-align: center;
+    font-size: 23px;
+    font-family: "Varela Round";
+}
+
+.JP-botton{
+    width: 175px;
+    height: 40px;
+    border: 3px solid #cab1ec;
+    background-color: #cab1ec;
+    margin: 10px;
+    float: bottom;
+}
+
+.EN-botton{
+    width: 175px;
+    height: 40px;
+    border: 3px solid #cab1ec;
+    background-color: #cab1ec;
+    margin: 10px;
+    float: bottom;
+}
+
+.section-square{
+    width: 1200px;
+    height: 400px;
+    border: 3px solid #cab1ec;
+    background-color: #f9f6ff;
+    padding: 20px;
+    margin: 20 auto;
+    margin-bottom: 10px;
+    margin: 25px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 45px;
+}
+
+.job{
+    width: 1200px;
+    height: 550px; 
+}
+
+.sns{
+    width: 1200px;
+    height: 200px; 
+    text-align: center;
+}
+
+.blo{
+    width: 1200px;
+    height: 650px; 
+}
+
+.title{
+    background-image: url(img/toki-time.en.jpg);
+    background-size: cover;
+    width: 940px;
+    height: 560px;
+    text-align: center;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.toki-time{
+    font-family: "M PLUS Rounded 1c";
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.about{
+    margin: 50px;
+}
+
+.Profile{
+    margin-left: 40px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.photo1{
+    background-image: url(img/toki.jpg);
+    background-size: cover;
+    width: 260px;
+    height: 250px;
+    float: left;
+    border-radius: 20%;
+    margin-right: 30px;
+}
+
+.myname{
+    margin-left: 280px;
+}
+
+.me{
+    padding-top: 7px;
+}
+
+.skill{
+    margin: 50px;
+}
+
+.Ican{
+    margin-left: 40px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.squares{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.square1{
+    width: 175px;
+    height: 190px;
+    border: 3px solid #cab1ec;
+    background-color: #f9f6ff;
+    padding: 20px;
+    margin: 20 auto;
+    text-align: center;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+.square2{
+    width: 175px;
+    height: 190px;
+    border: 3px solid #e26499;
+    background-color: #f9f6ff;
+    padding: 20px;
+    margin: 20 auto;
+    text-align: center;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+.small{
+    padding-top: 5px;
+}
+
+.center{
+    margin-top: 30px;
+}
+
+.star3{
+    float: left;
+    text-align: center;
+}
+
+.star2{
+    float: left;
+    text-align: center;
+}
+
+.star1{
+    float: left;
+    text-align: center;
+    margin-left: 75px;
+}
+
+.star3-f{
+    float: left;
+    text-align: center;
+    margin-left: 41px;
+}
+
+.star2-f{
+    float: left;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.purple{
+    color: #cab1ec;
+}
+
+.pink{
+   color: #e26499; 
+}
+
+.big-mini{
+    font-size: 23px;
+}
+
+.act{
+    margin: 50px;
+}
+
+.works{
+    margin-left: 40px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.act-big{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.tokitopo-square{
+    width: 300px;
+    height: 350px;
+    border: 3px solid #3f4661;
+    background-color: #f9f6ff;
+    padding: 20px;
+    margin: 20 auto;
+    text-align: center;
+    border-radius: 20%;
+    margin-bottom: 10px;
+    color: #22223b;
+}
+
+.tokitopo-square:hover{
+    opacity: 0.7;
+    border: 3px solid #f7ef99;
+    background-color: #f7ef99;
+    color: #3f4661;
+}
+
+.tokitopo-center{
+    text-align: center;
+}
+
+.photo2{
+    background-image: url(img/rogo.jpg);
+    background-size: cover;
+    width: 230px;
+    height: 130px;
+    margin: 10px;
+    margin-left: 35px;
+}
+
+.mediaart-square{
+    width: 300px;
+    height: 350px;
+    border: 3px solid #3f4661;
+    background-color: #f9f6ff;
+    padding: 20px;
+    margin: 20 auto;
+    text-align: center;
+    border-radius: 20%;
+    margin-bottom: 10px;
+    color: #22223b;
+}
+
+.mediaart-square:hover{
+    opacity: 0.7;
+    border: 3px solid #f7ef99;
+    background-color: #f7ef99;
+    color: #3f4661;
+}
+
+
+.photo3{
+    background-image: url(img/mediaart2.png);
+    background-size: cover;
+    width: 230px;
+    height: 130px;
+    margin: 10px;
+    margin-left: 35px;
+}
+
+.coming-soon{
+    width: 300px;
+    height: 350px;
+    border: 3px solid #3f4661;
+    background-color: #f9f6ff;
+    padding: 20px;
+    margin: 20 auto;
+    text-align: center;
+    border-radius: 20%;
+    margin-bottom: 10px;
+    color: #22223b;
+}
+
+.coming-soon:hover{
+    opacity: 0.7;
+    border: 3px solid #f7ef99;
+    background-color: #f7ef99;
+    color: #3f4661;
+}
+
+
+.coming-soon-word{
+    margin-top: 150px;
+}
+
+.botton{
+    width: 150px;
+    height: 30px;
+    border: 2px solid #3f4661;
+    background-color: #f9f6ff;
+    padding: 10px;
+    padding-top: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.botton:hover{
+     border: 2px solid #f9f6ff;
+    background-color: #f9f6ff;
+}
+
+.media{
+    margin: 50px;
+    margin-top: 20px;
+}
+
+.contact{
+    margin-left: -60px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.font-awesome{
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+
+.mark{
+   padding-left: 330px;
+}
+
+.blue{
+    color: dodgerblue;
+}
+
+.skyblue{
+    color: lightskyblue;
+}
+
+.blue2{
+    color: deepskyblue;
+}
+
+.red{
+    color: orangered;
+}
+
+.story{
+    margin: 50px;
+}
+
+.blog{
+    margin-left: 40px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.note-embed{
+    float: right;
+    padding-right: 30px;
+}
+
+.note-words{
+    padding-left: 50px;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.note{
+    width: 200px;
+    height: 30px;
+}
+
+.english{
+    font-family: "Varela Round";
+}
+
+footer {
+    text-align: center;
+    background-color: #cab1ec;
+    margin-top: 50px;
+    margin: 0px;
+    font-size: 25px;
+    padding: 0px;  
+}
