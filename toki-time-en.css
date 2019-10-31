@@ -189,6 +189,10 @@
         border-radius: 20%;
         margin-bottom: 10px;
     }
+    
+    .a{
+        font-size: 15px;
+    }
 
     .small{
         padding-top: 5px;
@@ -549,7 +553,7 @@
     }
     
     .can{
-        height: 550px;
+        height: 570px;
     }
 
     .job{
@@ -664,6 +668,10 @@
         border-radius: 20%;
         margin-bottom: 10px;
         font-family: "M PLUS Rounded 1c";
+    }
+    
+    .a{
+        font-size: 15px;
     }
 
     .small{
@@ -1035,7 +1043,7 @@
     }
     
     .can{
-        height: 550px;
+        height: 570px;
     }
 
     .job{
@@ -1150,6 +1158,10 @@
         border-radius: 20%;
         margin-bottom: 10px;
         font-family: "M PLUS Rounded 1c";
+    }
+    
+    .a{
+        font-size: 15px;
     }
 
     .small{
