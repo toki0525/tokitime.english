@@ -1,0 +1,1412 @@
+/*パソコン向け*/
+@media screen and (min-width:1024px) {
+    *{
+        background-color: #f9f6ff;
+        color: #3f4661;
+        font-family: "M PLUS Rounded 1c";
+        font-family: "Varela Round";
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    p{
+        font-family: "M PLUS Rounded 1c";
+        margin: 5px;
+        font-size: 20px;
+        background-color: transparent;
+    }
+
+    h2{
+        font-family: "Bad Script";
+        font-size: 40px;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    h3{
+        font-family: "M PLUS Rounded 1c";
+        font-size: 25px;
+        background-color: transparent;
+    }
+
+    a{
+        font-family: "M PLUS Rounded 1c";
+        margin: 5px;
+        font-size: 20px; 
+        background-color: transparent;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    header{
+        margin-top: 10px;
+    }
+    
+/*
+    body{
+        width: 130%;
+    }
+*/
+
+    .language-botton{
+        margin-right: 30px;
+    }
+
+    .language{
+        color: #f9f6ff;
+        text-align: center;
+        font-size: 23px;
+        font-family: "Varela Round";
+    }
+
+    .JP-botton{
+        width: 175px;
+        height: 40px;
+        border: 3px solid #cab1ec;
+        background-color: #cab1ec;
+        margin: 10px;
+        float: bottom;
+    }
+
+    .EN-botton{
+        width: 175px;
+        height: 40px;
+        border: 3px solid #cab1ec;
+        background-color: #cab1ec;
+        margin: 10px;
+        float: bottom;
+    }
+
+    .section-square{
+        width: 1200px;
+        height: 400px;
+        border: 3px solid #cab1ec;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .job{
+        width: 1200px;
+        height: 550px; 
+    }
+
+    .sns{
+        width: 1200px;
+        height: 200px; 
+        text-align: center;
+    }
+
+    .blo{
+        width: 1200px;
+        height: 650px; 
+    }
+
+    .title{
+        background-image: url(img/toki-time.en.jpg);
+        background-size: cover;
+        width: 940px;
+        height: 560px;
+        text-align: center;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+
+    .toki-time{
+        font-family: "M PLUS Rounded 1c";
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .about{
+        margin: 50px;
+    }
+
+    .Profile{
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .photo1{
+        background-image: url(img/toki.jpg);
+        background-size: cover;
+        width: 260px;
+        height: 250px;
+        float: left;
+        border-radius: 20%;
+        margin-right: 30px;
+    }
+
+    .myname{
+        margin-left: 280px;
+    }
+
+    .me{
+        padding-top: 7px;
+    }
+
+    .skill{
+        margin: 50px;
+    }
+
+    .Ican{
+       margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .squares{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .square1{
+        width: 175px;
+        height: 170px;
+        border: 3px solid #cab1ec;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 20 auto;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 10px;
+    }
+
+    .square2{
+        width: 175px;
+        height: 170px;
+        border: 3px solid #e26499;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 20 auto;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 10px;
+    }
+
+    .small{
+        padding-top: 5px;
+    }
+
+    .center{
+        margin-top: 30px;
+    }
+
+    .star3{
+        float: left;
+        text-align: center;
+    }
+
+    .star2{
+        float: left;
+        text-align: center;
+    }
+
+    .star1{
+        float: left;
+        text-align: center;
+        margin-left: 75px;
+    }
+
+    .star3-f{
+        float: left;
+        text-align: center;
+        margin-left: 41px;
+    }
+
+    .star2-f{
+        float: left;
+        text-align: center;
+        margin-left: 60px;
+    }
+
+    .purple{
+        color: #cab1ec;
+    }
+
+    .pink{
+       color: #e26499; 
+    }
+
+    .big-mini{
+        font-size: 23px;
+    }
+
+    .act{
+        margin: 50px;
+    }
+
+    .works{
+        margin-left: 40px;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .act-big{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .tokitopo-square{
+        width: 300px;
+        height: 350px;
+        border: 3px solid #3f4661;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 20 auto;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 10px;
+        color: #22223b;
+    }
+
+    .tokitopo-square:hover{
+        opacity: 0.7;
+        border: 3px solid #f7ef99;
+        background-color: #f7ef99;
+        color: #3f4661;
+        transition: 0.5s;
+    }
+
+    .tokitopo-center{
+        text-align: center;
+    }
+
+    .photo2{
+        background-image: url(img/rogo.jpg);
+        background-size: cover;
+        width: 230px;
+        height: 130px;
+        margin: 10px;
+        margin-left: 35px;
+    }
+
+    .mediaart-square{
+        width: 300px;
+        height: 350px;
+        border: 3px solid #3f4661;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 20 auto;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 10px;
+        color: #22223b;
+    }
+
+    .mediaart-square:hover{
+        opacity: 0.7;
+        border: 3px solid #f7ef99;
+        background-color: #f7ef99;
+        color: #3f4661;
+        transition: 0.5s;
+    }
+
+
+    .photo3{
+        background-image: url(img/mediaart2.png);
+        background-size: cover;
+        width: 230px;
+        height: 130px;
+        margin: 10px;
+        margin-left: 35px;
+    }
+
+    .coming-soon{
+        width: 300px;
+        height: 350px;
+        border: 3px solid #3f4661;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 20 auto;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 10px;
+        color: #22223b;
+    }
+
+    .coming-soon:hover{
+        opacity: 0.7;
+        border: 3px solid #f7ef99;
+        background-color: #f7ef99;
+        color: #3f4661;
+        transition: 0.5s;
+    }
+
+
+    .coming-soon-word{
+        margin-top: 150px;
+    }
+
+    .botton{
+        width: 150px;
+        height: 30px;
+        border: 2px solid #3f4661;
+        background-color: #f9f6ff;
+        padding: 10px;
+        padding-top: 15px;
+        text-decoration: none;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .botton:hover{
+        border: 2px solid #f9f6ff;
+        background-color: #f9f6ff;
+        transition: 0.5s;
+    }
+
+    .media{
+        margin: 50px;
+        margin-top: 20px;
+    }
+
+    .contact{
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .font-awesome{
+        float: left;
+        margin-bottom: 50px;
+        margin-right: 40px;
+    }
+
+    .mark{
+       padding-left: 330px;
+    }
+
+    .blue{
+        color: dodgerblue;
+    }
+
+    .skyblue{
+        color: lightskyblue;
+    }
+
+    .blue2{
+        color: deepskyblue;
+    }
+
+    .red{
+        color: orangered;
+    }
+
+    .story{
+        margin: 50px;
+    }
+
+    .blog{
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .note-embed{
+        float: right;
+        padding-right: 30px;
+    }
+
+    .note-words{
+        padding-left: 50px;
+        text-align: left;
+        padding-top: 100px;
+    }
+
+    .note{
+        width: 200px;
+        height: 30px;
+    }
+
+    .english{
+        font-family: "Varela Round";
+    }
+
+    footer {
+        text-align: center;
+        background-color: #cab1ec;
+        margin-top: 50px;
+        margin: 0px;
+        font-size: 25px;
+        padding: 0px;  
+    }
+}
+
+/*スマホ向け*/
+@media screen and (min-width:1px) and (max-width:480px) {
+    
+/*
+    .container{
+        display: none;
+    }
+    
+*/
+    *{
+        background-color: #f9f6ff;
+        color: #3f4661;
+        font-family: "M PLUS Rounded 1c";
+        font-family: "Varela Round";
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    p{
+        font-family: "M PLUS Rounded 1c";
+        margin: 5px;
+        font-size: 20px;
+        background-color: transparent;
+        color: #3f4661;
+    }
+
+    h2{
+        font-family: "Bad Script";
+        font-size: 40px;
+        background-color: transparent;
+        text-align: center;
+        font-family: "Bad Script";
+        color: #3f4661;
+    }
+
+    h3{
+        font-family: "M PLUS Rounded 1c";
+        font-size: 25px;
+        background-color: transparent;
+        font-family: "M PLUS Rounded 1c";
+        color: #3f4661;
+    }
+
+    a{
+        font-family: "M PLUS Rounded 1c";
+        margin: 5px;
+        font-size: 20px; 
+        background-color: transparent;
+        text-decoration: none;
+        text-align: center;
+        color: #3f4661;
+    }
+
+    body{
+        width: 310%;
+    }
+    
+    header{
+        background-color: #f9f6ff;
+    }
+    
+    .language-botton{
+        background-color: #f9f6ff;
+    }
+
+    .language{
+        color: #f9f6ff;
+        text-align: center;
+        font-size: 23px;
+        font-family: "Varela Round";
+    }
+
+    .JP-botton{
+        width: 175px;
+        height: 40px;
+        border: 3px solid #cab1ec;
+        background-color: #cab1ec;
+        margin: 10px;
+        float: bottom;
+    }
+
+    .EN-botton{
+        width: 175px;
+        height: 40px;
+        border: 3px solid #cab1ec;
+        background-color: #cab1ec;
+        margin: 10px;
+        float: bottom;
+    }
+    
+    .section-square{
+        width: 830px;
+        height: 400px;
+        border: 3px solid #cab1ec;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    
+    .pro{
+        margin-top: 80px;
+    }
+    
+    .can{
+        height: 550px;
+    }
+
+    .job{
+        width: 850px;
+        height: 1350px; 
+    }
+
+    .sns{
+        width: 850px;
+        height: 200px; 
+        text-align: center;
+    }
+
+    .blo{
+        width: 850px;
+        height: 650px; 
+    }
+
+    .title{
+        background-image: url(img/toki-time.en.jpg);
+        background-size: cover;
+        width: 840px;
+        height: 560px;
+        text-align: center;
+        object-fit: cover;
+        margin: 0 auto;
+        background-color: #f9f6ff;
+    }
+    
+    .parent-tt{
+        margin: 10 auto;
+    }
+
+    .toki-time{
+        font-family: "M PLUS Rounded 1c";
+        font-size: 25px;
+        margin: 10 auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .about{
+        margin: 10 auto;
+    }
+
+    .Profile{
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: "Bad Script";
+    }
+
+    .photo1{
+        background-image: url(img/toki.jpg);
+        background-size: cover;
+        width: 240px;
+        height: 250px;
+        float: left;
+        border-radius: 20%;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+    .myname{
+        margin-left: 280px;
+    }
+
+    .me{
+        padding-top: 3px;
+        font-family: "M PLUS Rounded 1c";
+    }
+
+    .skill{
+        margin: 10px;
+    }
+
+    .Ican{
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: "Bad Script";
+    }
+
+    .squares{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .square1{
+        width: 175px;
+        height: 175px;
+        border: 3px solid #cab1ec;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 20 auto;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 10px;
+        font-family: "M PLUS Rounded 1c";
+    }
+
+    .square2{
+        width: 175px;
+        height: 175px;
+        border: 3px solid #e26499;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 20 auto;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 10px;
+        font-family: "M PLUS Rounded 1c";
+    }
+
+    .small{
+        padding-top: 1px;
+        padding-bottom: 0;
+    }
+
+    .center{
+        margin-top: 20px;
+    }
+
+    .star3{
+        float: left;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .star2{
+        float: left;
+        text-align: center;
+    }
+
+    .star1{
+        float: left;
+        text-align: center;
+        margin-left: 75px;
+    }
+
+    .star3-f{
+        float: left;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    .star2-f{
+        float: left;
+        text-align: center;
+        margin-left: 60px;
+    }
+
+    .purple{
+        color: #cab1ec;
+    }
+
+    .pink{
+       color: #e26499; 
+    }
+
+    .big-mini{
+        font-size: 23px;
+        padding-top: 0;
+    }
+
+    .act{
+        margin: 50px;
+    }
+
+    .works{
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: "Bad Script";
+    }
+/*
+
+    .act-big{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+*/
+
+    .tokitopo-square{
+        width: 300px;
+        height: 350px;
+        border: 3px solid #3f4661;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 30px;
+        color: #22223b;
+    }
+
+    .tokitopo-square:hover{
+        opacity: 0.7;
+        border: 3px solid #f7ef99;
+        background-color: #f7ef99;
+        color: #3f4661;
+        transition: 0.5s;
+    }
+
+    .tokitopo-center{
+        text-align: center;
+    }
+
+    .photo2{
+        background-image: url(img/rogo.jpg);
+        background-size: cover;
+        width: 230px;
+        height: 130px;
+        margin: 10px;
+        margin-left: 35px;
+    }
+
+    .mediaart-square{
+        width: 300px;
+        height: 350px;
+        border: 3px solid #3f4661;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 30px;
+        color: #22223b;
+    }
+
+    .mediaart-square:hover{
+        opacity: 0.7;
+        border: 3px solid #f7ef99;
+        background-color: #f7ef99;
+        color: #3f4661;
+        transition: 0.5s;
+    }
+
+
+    .photo3{
+        background-image: url(img/mediaart2.png);
+        background-size: cover;
+        width: 230px;
+        height: 130px;
+        margin: 10px;
+        margin-left: 35px;
+    }
+
+    .coming-soon{
+        width: 300px;
+        height: 350px;
+        border: 3px solid #3f4661;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 30px;
+        color: #22223b;
+    }
+
+    .coming-soon:hover{
+        opacity: 0.7;
+        border: 3px solid #f7ef99;
+        background-color: #f7ef99;
+        color: #3f4661;
+        transition: 0.5s;
+    }
+
+
+    .coming-soon-word{
+        margin-top: 150px;
+    }
+
+    .botton{
+        width: 150px;
+        height: 30px;
+        border: 2px solid #3f4661;
+        background-color: #f9f6ff;
+        padding: 10px;
+        padding-top: 15px;
+        text-decoration: none;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .botton:hover{
+        border: 2px solid #f9f6ff;
+        background-color: #f9f6ff;
+        transition: 0.5s;
+    }
+
+    .media{
+        margin: 50px;
+        margin-top: 20px;
+    }
+
+    .contact{
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: "Bad Script";
+    }
+
+    .font-awesome{
+        float: left;
+        margin-bottom: 50px;
+        margin-right: 40px;
+    }
+
+    .mark{
+       padding-left: 190px;
+    }
+
+    .blue{
+        color: dodgerblue;
+    }
+
+    .skyblue{
+        color: lightskyblue;
+    }
+
+    .blue2{
+        color: deepskyblue;
+    }
+
+    .red{
+        color: orangered;
+    }
+
+    .story{
+        margin: 50px;
+    }
+
+    .blog{
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: "Bad Script";
+    }
+
+    .note-embed{
+        float: right;
+        padding-right: 30px;
+    }
+
+    .note-words{
+        padding-left: 0px;
+        text-align: left;
+        padding-top: 100px;
+    }
+
+    .note{
+        width: 200px;
+        height: 30px;
+    }
+
+    .english{
+        font-family: "Varela Round";
+    }
+
+    footer {
+        text-align: center;
+        background-color: #cab1ec;
+        margin-top: 50px;
+        margin: 0px;
+        font-size: 25px;
+        padding: 0px;  
+        font-family: "M PLUS Rounded 1c";
+    }
+}
+
+/*タブレット向け*/
+@media screen and (min-width:481px) and (max-width:1024px) {
+
+/*
+    .container{
+        display: none;
+    }
+    
+*/
+    *{
+        background-color: #f9f6ff;
+        color: #3f4661;
+        font-family: "M PLUS Rounded 1c";
+        font-family: "Varela Round";
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    p{
+        font-family: "M PLUS Rounded 1c";
+        margin: 5px;
+        font-size: 20px;
+        background-color: transparent;
+        color: #3f4661;
+    }
+
+    h2{
+        font-family: "Bad Script";
+        font-size: 40px;
+        background-color: transparent;
+        text-align: center;
+        font-family: "Bad Script";
+        color: #3f4661;
+    }
+
+    h3{
+        font-family: "M PLUS Rounded 1c";
+        font-size: 25px;
+        background-color: transparent;
+        font-family: "M PLUS Rounded 1c";
+        color: #3f4661;
+    }
+
+    a{
+        font-family: "M PLUS Rounded 1c";
+        margin: 5px;
+        font-size: 20px; 
+        background-color: transparent;
+        text-decoration: none;
+        text-align: center;
+        color: #3f4661;
+    }
+
+    body{
+        width: 150%;
+    }
+    
+    header{
+        background-color: #f9f6ff;
+    }
+    
+    .language-botton{
+        background-color: #f9f6ff;
+    }
+
+    .language{
+        color: #f9f6ff;
+        text-align: center;
+        font-size: 23px;
+        font-family: "Varela Round";
+    }
+
+    .JP-botton{
+        width: 175px;
+        height: 40px;
+        border: 3px solid #cab1ec;
+        background-color: #cab1ec;
+        margin: 10px;
+        float: bottom;
+    }
+
+    .EN-botton{
+        width: 175px;
+        height: 40px;
+        border: 3px solid #cab1ec;
+        background-color: #cab1ec;
+        margin: 10px;
+        float: bottom;
+    }
+    
+    .section-square{
+        width: 830px;
+        height: 400px;
+        border: 3px solid #cab1ec;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    
+    .pro{
+        margin-top: 80px;
+    }
+    
+    .can{
+        height: 550px;
+    }
+
+    .job{
+        width: 850px;
+        height: 950px; 
+    }
+
+    .sns{
+        width: 850px;
+        height: 200px; 
+        text-align: center;
+    }
+
+    .blo{
+        width: 850px;
+        height: 650px; 
+    }
+
+    .title{
+        background-image: url(img/toki-time.en.jpg);
+        background-size: cover;
+        width: 840px;
+        height: 560px;
+        text-align: center;
+        object-fit: cover;
+        margin: 0 auto;
+        background-color: #f9f6ff;
+    }
+    
+    .parent-tt{
+        margin: 10 auto;
+    }
+
+    .toki-time{
+        font-family: "M PLUS Rounded 1c";
+        font-size: 25px;
+        margin: 10 auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .about{
+        margin: 10 auto;
+    }
+
+    .Profile{
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: "Bad Script";
+    }
+
+    .photo1{
+        background-image: url(img/toki.jpg);
+        background-size: cover;
+        width: 240px;
+        height: 250px;
+        float: left;
+        border-radius: 20%;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+    .myname{
+        margin-left: 280px;
+    }
+
+    .me{
+        padding-top: 3px;
+        font-family: "M PLUS Rounded 1c";
+    }
+
+    .skill{
+        margin: 10px;
+    }
+
+    .Ican{
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: "Bad Script";
+    }
+
+    .squares{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .square1{
+        width: 175px;
+        height: 175px;
+        border: 3px solid #cab1ec;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 20 auto;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 10px;
+        font-family: "M PLUS Rounded 1c";
+    }
+
+    .square2{
+        width: 175px;
+        height: 175px;
+        border: 3px solid #e26499;
+        background-color: #f9f6ff;
+        padding: 20px;
+        margin: 20 auto;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 10px;
+        font-family: "M PLUS Rounded 1c";
+    }
+
+    .small{
+        padding-top: 1px;
+        padding-bottom: 0;
+    }
+
+    .center{
+        margin-top: 20px;
+    }
+
+    .star3{
+        float: left;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .star2{
+        float: left;
+        text-align: center;
+    }
+
+    .star1{
+        float: left;
+        text-align: center;
+        margin-left: 75px;
+    }
+
+    .star3-f{
+        float: left;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    .star2-f{
+        float: left;
+        text-align: center;
+        margin-left: 60px;
+    }
+
+    .purple{
+        color: #cab1ec;
+    }
+
+    .pink{
+       color: #e26499; 
+    }
+
+    .big-mini{
+        font-size: 23px;
+        padding-top: 0;
+    }
+
+    .act{
+        margin: 50px;
+    }
+
+    .works{
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: "Bad Script";
+    }
+
+    .act-big{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .tokitopo-square{
+        width: 300px;
+        height: 350px;
+        border: 3px solid #3f4661;
+        background-color: #f9f6ff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 30px;
+        color: #22223b;
+    }
+
+    .tokitopo-square:hover{
+        opacity: 0.7;
+        border: 3px solid #f7ef99;
+        background-color: #f7ef99;
+        color: #3f4661;
+        transition: 0.5s;
+    }
+
+    .tokitopo-center{
+        text-align: center;
+    }
+
+    .photo2{
+        background-image: url(img/rogo.jpg);
+        background-size: cover;
+        width: 230px;
+        height: 130px;
+        margin: 10px;
+        margin-left: 35px;
+    }
+
+    .mediaart-square{
+        width: 300px;
+        height: 350px;
+        border: 3px solid #3f4661;
+        background-color: #f9f6ff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 30px;
+        color: #22223b;
+    }
+
+    .mediaart-square:hover{
+        opacity: 0.7;
+        border: 3px solid #f7ef99;
+        background-color: #f7ef99;
+        color: #3f4661;
+        transition: 0.5s;
+    }
+
+
+    .photo3{
+        background-image: url(img/mediaart2.png);
+        background-size: cover;
+        width: 230px;
+        height: 130px;
+        margin: 10px;
+        margin-left: 35px;
+    }
+
+    .coming-soon{
+        width: 300px;
+        height: 350px;
+        border: 3px solid #3f4661;
+        background-color: #f9f6ff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20%;
+        margin-bottom: 30px;
+        color: #22223b;
+    }
+
+    .coming-soon:hover{
+        opacity: 0.7;
+        border: 3px solid #f7ef99;
+        background-color: #f7ef99;
+        color: #3f4661;
+        transition: 0.5s;
+    }
+
+
+    .coming-soon-word{
+        margin-top: 150px;
+    }
+
+    .botton{
+        width: 150px;
+        height: 30px;
+        border: 2px solid #3f4661;
+        background-color: #f9f6ff;
+        padding: 10px;
+        padding-top: 15px;
+        text-decoration: none;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .botton:hover{
+        border: 2px solid #f9f6ff;
+        background-color: #f9f6ff;
+        transition: 0.5s;
+    }
+
+    .media{
+        margin: 50px;
+        margin-top: 20px;
+    }
+
+    .contact{
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: "Bad Script";
+    }
+
+    .font-awesome{
+        float: left;
+        margin-bottom: 50px;
+        margin-right: 40px;
+    }
+
+    .mark{
+       padding-left: 190px;
+    }
+
+    .blue{
+        color: dodgerblue;
+    }
+
+    .skyblue{
+        color: lightskyblue;
+    }
+
+    .blue2{
+        color: deepskyblue;
+    }
+
+    .red{
+        color: orangered;
+    }
+
+    .story{
+        margin: 50px;
+    }
+
+    .blog{
+        margin: 0 auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: "Bad Script";
+    }
+
+    .note-embed{
+        float: right;
+        padding-right: 30px;
+    }
+
+    .note-words{
+        padding-left: 0px;
+        text-align: left;
+        padding-top: 100px;
+    }
+
+    .note{
+        width: 200px;
+        height: 30px;
+    }
+
+    .english{
+        font-family: "Varela Round";
+    }
+
+    footer {
+        text-align: center;
+        background-color: #cab1ec;
+        margin-top: 50px;
+        margin: 0px;
+        font-size: 25px;
+        padding: 0px;  
+        font-family: "M PLUS Rounded 1c";
+    }
+}
+}
