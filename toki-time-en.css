@@ -514,7 +514,7 @@
     
     .section-square{
         width: 250px;
-        height: 300px;
+        height: 330px;
         border: 3px solid #cab1ec;
         background-color: #f9f6ff;
         padding: 20px;
@@ -525,8 +525,6 @@
     
     .pro{
         margin-top: 40px;
-        height: 300px;
-        
     }
     
     .can{
